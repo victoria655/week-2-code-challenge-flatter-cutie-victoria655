@@ -14,25 +14,26 @@
 
     <div class="characterInfo">
       <div id="detailed-info">
-        <p id="name">Character's Name</p>
+        <p id="name"></p>
         <img
           id="image"
           src="assets/dummy.gif"
           alt="Character's Name"
         /><!-- display character image here -->
-        <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
+      </div>
+      <h4>Total Votes: <span id="vote-count"></span></h4>
         <form id="votes-form">
-          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+          <input type="number" placeholder="Enter Votes" id="votes" name="votes" />
           <input type="submit" value="Add Votes" />
         </form>
         <button id="reset-btn">Reset Votes</button>
-      </div>
+     
       
         <h4>Add New Character</h4>
         <form id="character-form">
           <div>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="character-name" name="name" />
           </div>
           <div>
             <label for="image-url">Image URL</label>
